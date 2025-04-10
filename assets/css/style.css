@@ -1,65 +1,74 @@
-*{
-    margin: 0;
-    padding: 0;
-    font-family: "Lato", sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", sans-serif;
 }
 
-body{
-    background-color: aquamarine;
+body {
+  background-color: aquamarine;
 }
 
 .container {
-	background-color: grey;
-	max-width: 800px;
-	margin: 30px auto;
-	padding: 20px;
-	box-shadow: 0 2px 20px rgba(0, 0, 0, 0.3);
+  background-color: grey;
+  max-width: 800px;
+  margin: 30px auto;
+  padding: 20px;
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.3);
 }
 .header {
-	text-align: center;
+  text-align: center;
 }
 .header h1 {
-	margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 .header h3 {
-	text-transform: uppercase;
-	font-size: 16px;
-	font-weight: 510;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 510;
 }
 .image {
-	width: 200px;
-	height: 200px;
-	border-radius: 30px;
-	overflow: hidden;
-	margin: 25px auto;
-	border: 15px;
+  width: 200px;
+  height: 200px;
+  border-radius: 30px;
+  overflow: hidden;
+  margin: 25px auto;
+  border: 15px;
 }
 .image img {
-	width: 100%;
+  width: 100%;
 }
 .main {
-	display: flex;
-	flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
 }
 .left {
-	flex: 1;
-	padding: 30px;
+  flex: 1;
+  padding: 30px;
 }
 .left p {
-	line-height: 2;
-    font-size: 20px;
+  line-height: 2;
+  font-size: 20px;
 }
-.left .mail{
-    color: rgba(0, 0, 0, 0.3);
+.left .mail {
+  color: rgba(0, 0, 0, 0.3);
 }
 .left ul li {
-	line-height: 2;
-    font-size: 20px;
+  line-height: 2;
+  font-size: 20px;
+  list-style: none;
 }
 h2 {
-	background-color: blueviolet;
-	padding: 15px;
-	color: #fff;
-	margin: 30px 0;
-	font-size: 20px;
+  background-color: rgb(95, 87, 87);
+  padding: 15px;
+  color: #fff;
+  margin: 30px 0;
+  font-size: 20px;
+}
+
+.right {
+  flex: 1;
+  padding: 30px;
+}
+.right h3 {
+  margin-bottom: 15px;
 }
