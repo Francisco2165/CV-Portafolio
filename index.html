@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Curriculum-Portafolio</title>
+    <title>Curriculum</title>
     <!-- font awesome -->
     <link
       rel="stylesheet"
@@ -29,11 +29,11 @@
     <link rel="stylesheet" href="./assets/css/style.css" />
   </head>
   <body>
-    <!-- Perfil -->
+    <!-- Barra de navegación -->
     <div class="container">
       <nav class="navbar navbar-expand-lg bg-light">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">CURRICULUM - PORTAFOLIO</a>
+          <a class="navbar-brand" href="#">CURRICULUM</a>
           <button
             class="navbar-toggler"
             type="button"
@@ -52,14 +52,40 @@
                   >Portafolio</a
                 >
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Redes</a>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Contacto
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="https://wa.me/56956387137"
+                      target="_blank"
+                      >WhatsApp</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="https://www.instagram.com/panchodj2311/"
+                      target="_blank"
+                      >Instagram</a
+                    >
+                  </li>
+                </ul>
               </li>
             </ul>
           </div>
         </div>
       </nav>
-
+      <!-- Imagen principal -->
       <div class="header">
         <div class="image">
           <img src="./assets/img/Foto_Principal.jpg" alt="" />
@@ -67,7 +93,7 @@
         <h1>Francisco González Gatica</h1>
         <h3>Asistente de Logística - Wed Developer</h3>
       </div>
-
+      <!-- Información personal y habilidades -->
       <div class="main">
         <div class="left">
           <h2>INFORMACIÓN PERSONAL</h2>
@@ -91,6 +117,7 @@
             <li><i class="fa-solid fa-file-excel fa-sm"></i> EXCEL</li>
             <li><i class="fa-solid fa-warehouse fa-sm"></i> WMS</li>
           </ul>
+          <!-- Educación -->
           <h2>EDUCACIÓN</h2>
           <h4><strong>1990-1997</strong></h4>
           <h3>Colegio Tte. Dagoberto Godoy</h3>
@@ -99,7 +126,7 @@
           <h2>ESPECIALIDAD</h2>
           <h3>Programacion en Computación</h3>
           <h2>CURSO</h2>
-          <h3>Actualmente realizando el curso FullStack Developer</h3>
+          <h3>Actualmente cursando FullStack Developer</h3>
         </div>
         <!-- Experiencia laboral -->
         <div class="right">
@@ -144,19 +171,8 @@
         </div>
       </div>
     </div>
-    <footer class="container text-center py-3 pb-1 bg-light">
-      <a href="https://www.instagram.com/panchodj2311/" target="_blank"
-        ><i class="fa-brands fa-square-instagram fa-2xl"></i
-      ></a>
-      <br />
-      <p>Instagram</p>
-      <a href="https://wa.me/56956387137" target="_blank"
-        ><i
-          class="fa-brands fa-square-whatsapp fa-2xl"
-          style="color: #3ebe3c"
-        ></i
-      ></a>
-      <p>WhatsApp</p>
+    <!-- Footer -->
+    <footer class="container d-flex justify-content-center py-3 pb-1 bg-light">
       <p>© 2025.Todos los derechos reservados.</p>
     </footer>
     <script
